@@ -7,7 +7,12 @@
 
 body {
     font-size: 100%;
-    background-color: #fcc5e2;
+    background-image: url(TelaDeFundo.png);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
 }
 
 ul {
@@ -19,3 +24,6 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+/*ANIMAÇÃO DO MOTOR*/
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Inversor de Frequência</title>
 </head>
+
 <body>
+
     <head>
         <ul>
             <li><a href="more.html">MAIS INFORMAÇÕES</a></li>
         </ul>
+        <style type="text/css">
+            .loading {
+                margin: 60px auto;
+                border: 3px solid #094CFA;
+                font-size: 100%;
+                background-image: url(Engrenagem.png);
+                position: relative;
+                background-size: cover;
+                width: 25rem;
+                height: 25rem;
+                border-radius: 25rem;
+
+                /* Aqui declaramos nossa animação inline */
+                animation: rotate 3s infinite linear;
+            }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(359deg);
+                }
+            }
+        </style>
     </head>
 
     <body>
         <h1>INVERSOR DE FREQUÊNCIA</h1>
-        
+        <div class="loading"></div>
     </body>
-    
+
     <footer>
 
     </footer>
 </body>
+
 </html>
