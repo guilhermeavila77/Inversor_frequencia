@@ -26,8 +26,14 @@ body {
     justify-content: center;
 }
 
+.motor{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .img{
-    width: 40rem;
+    width: 30rem;
     height: auto;
     justify-content: center;
 }
@@ -49,7 +55,47 @@ body {
 .icon{
     display: flex;
     flex-direction: row;
-    width: 5rem;
-    height: 5rem;
     gap: 5rem;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+  
+/*apply css properties to button tag*/
+  
+button {
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color: gray;
+    color: whitesmoke;
+}
+  
+/*apply hover effect to button tag*/
+  
+button:hover {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+  
+/*apply css properties to h2 tag*/
+  
+h2 {
+    color: black;
+    margin: 0 50px;
+    font-size: 45px;
+}
+  
+/*apply css properties to h1 tag*/
+  
+h1 {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding-left: 10%;
 }
