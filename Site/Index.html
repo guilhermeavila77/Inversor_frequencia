@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Inversor de Frequência</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,8 +19,15 @@
     <body>
         <h1 class="titulo">INVERSOR DE FREQUÊNCIA</h1>
         <div class="main">
-            <img class="img" src="Velocidade1.gif" alt="">
-            <img class="img" src="onda-sinusoidal.png" alt="">
+            <div class="motor">
+                <img class="img" src="Velocidade1.gif" alt="">
+                <div="container">
+                    <button onclick="increment()">+</button>
+                    <h2 id="counting"></h2>
+                    <button onclick="decrement()">-</button>
+            </div>
+        </div>
+        <img class="img" src="ondaSenoidal.gif" alt="">
         </div>
     </body>
 
